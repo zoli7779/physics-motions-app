@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Physics Motions - M10</string>
+
+    <!-- Uniform Linear Motion -->
+    <string name="title_uniform_linear">1. Uniform Linear Motion</string>
+    <string name="desc_uniform_linear">Definition: Motion along a straight path where the object covers equal distances in equal time intervals.</string>
+    <string name="formula_uniform_linear">Velocity (v): Constant magnitude and direction. Formula: v = s / t\nDistance: s = v * t | Time: t = s / v</string>
+
+    <!-- Uniformly Accelerated Linear Motion -->
+    <string name="title_accelerated_linear">2. Uniformly Accelerated Linear Motion</string>
+    <string name="desc_accelerated_linear">Definition: The object moves along a straight path with constant acceleration.</string>
+    <string name="formula_accelerated_linear">Starting from rest (v0 = 0):\n- Velocity: v = a * t\n- Distance: s = (a / 2) * t^2\n- v^2 = 2 * a * s</string>
+
+    <!-- Uniform Circular Motion -->
+    <string name="title_uniform_circular">3. Uniform Circular Motion</string>
+    <string name="desc_uniform_circular">Definition: The object moves along a circular path with constant speed. Period (T), Frequency (f = 1 / T).</string>
+    <string name="formula_uniform_circular">Tangential speed: v = (2 * r * pi) / T = 2 * r * pi * f\nAngular velocity: omega = (2 * pi) / T\nCentripetal acceleration: a_cp = v^2 / r</string>
+
+    <!-- Free Fall -->
+    <string name="title_free_fall">4. Free Fall</string>
+    <string name="desc_free_fall">Definition: Vertically downward motion starting from rest (v0 = 0) with air resistance neglected.</string>
+    <string name="formula_free_fall">Gravitational acceleration (g ≈ 9.81 m/s²):\n- Velocity: v = g * t\n- Height: h = (g / 2) * t^2\n- Time: t = sqrt(2 * h / g)</string>
+
+    <!-- Buttons & Accessibility -->
+    <string name="btn_toggle_lang">Toggle Language / Nyelv váltása</string>
+    <string name="accessibility_lang_toggle">Click to switch language between English and Hungarian</string>
+</resources>

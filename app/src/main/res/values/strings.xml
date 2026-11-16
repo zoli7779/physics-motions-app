@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Fizika Mozgások - M10</string>
+
+    <!-- Egyenes vonalú, egyenletes mozgás -->
+    <string name="title_uniform_linear">1. Egyenes vonalú, egyenletes mozgás</string>
+    <string name="desc_uniform_linear">Definíció: Olyan mozgás, amelynek pályája egyenes, és a test egyenlő időközök alatt egyenlő útszakaszokat tesz meg.</string>
+    <string name="formula_uniform_linear">Sebesség (v): Állandó nagyságú és irányú. Képlet: v = s / t\nÚt: s = v * t | Idő: t = s / v</string>
+
+    <!-- Egyenes vonalú, egyenletesen gyorsuló mozgás -->
+    <string name="title_accelerated_linear">2. Egyenes vonalú, egyenletesen gyorsuló mozgás</string>
+    <string name="desc_accelerated_linear">Definíció: A test pályája egyenes, gyorsulása állandó nagyságú és irányú. Gyorsulás: a = (v - v0) / t</string>
+    <string name="formula_accelerated_linear">Nyugalomból indulva (v0 = 0):\n- Sebesség: v = a * t\n- Megtett út: s = (a / 2) * t^2\n- v^2 = 2 * a * s</string>
+
+    <!-- Egyenletes körmozgás -->
+    <string name="title_uniform_circular">3. Egyenletes körmozgás</string>
+    <string name="desc_uniform_circular">Definíció: A test kör alakú pályán mozog, sebességének nagysága állandó. Periódusidő (T), Fordulatszám (f = 1 / T).</string>
+    <string name="formula_uniform_circular">Kerületi sebesség: v = (2 * r * pi) / T = 2 * r * pi * f\nSzögsebesség: omega = (2 * pi) / T\nCentripetális gyorsulás: a_cp = v^2 / r</string>
+
+    <!-- Szabadesés -->
+    <string name="title_free_fall">4. Szabadesés</string>
+    <string name="desc_free_fall">Definíció: Függőlegesen lefelé irányuló mozgás, amelynél a test nyugalomból indul (v0 = 0) és a légellenállást elhanyagoljuk.</string>
+    <string name="formula_free_fall">Nehézségi gyorsulás (g ≈ 9.81 m/s²):\n- Sebesség: v = g * t\n- Esési magasság: h = (g / 2) * t^2\n- Idő: t = sqrt(2 * h / g)</string>
+
+    <!-- Gombok és akadálymentesség -->
+    <string name="btn_toggle_lang">Nyelv váltása / Toggle Language</string>
+    <string name="accessibility_lang_toggle">Kattintson a nyelv váltásához magyar és angol között</string>
+</resources>
